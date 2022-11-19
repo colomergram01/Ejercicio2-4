@@ -4,22 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondooo"
+    android:background="#CD4C4C"
     android:orientation="vertical"
     tools:context=".MainActivityListar">
+
+    <Button
+        android:id="@+id/btnAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Atras"
+        app:icon="@drawable/ic_baseline_arrow_back_24" />
 
     <ListView
         android:id="@+id/lista"
         android:layout_width="match_parent"
-        android:layout_height="666dp">
+        android:layout_height="677dp">
 
     </ListView>
 
-    <Button
-        android:id="@+id/btnAtras"
-        android:layout_width="match_parent"
-        android:layout_height="78dp"
-        android:layout_weight="1"
-        android:backgroundTint="#000000"
-        android:text="Atras" />
 </LinearLayout>

@@ -1,26 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="#CD4C4C">
 
     <TextView
         android:id="@+id/descripcionImagen"
-        android:layout_width="match_parent"
+        android:layout_width="364dp"
         android:layout_height="wrap_content"
-        android:background="#000000"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="28dp"
+        android:background="#770606"
+        android:gravity="center"
         android:paddingLeft="10dp"
-        android:text="DESCRIPCION DE LA IMAGEN"
+        android:text="DESCRIPCION "
         android:textColor="@android:color/white"
         android:textSize="20sp" />
 
     <ImageView
         android:id="@+id/imgFirma"
-        android:layout_width="match_parent"
-        android:layout_height="323dp"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
         android:layout_below="@id/descripcionImagen"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="0dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="409dp"
         android:scaleType="centerCrop"
         android:src="@drawable/mood" />
 
